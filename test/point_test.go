@@ -17,7 +17,7 @@ func TestPoint(t *testing.T) {
 	byPointer(&i)
 	fmt.Println("byptr:", i)
 	// 打印出 i 的地址
-	fmt.Println("pointer:", i)
+	fmt.Println("pointer:", &i)
 
 }
 
